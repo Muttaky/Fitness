@@ -1,0 +1,16 @@
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+nav,article,section{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+section div img{
+    border-radius: 100px;
+}
+p{color: aqua;}
