@@ -14,3 +14,29 @@ section div img{
     border-radius: 100px;
 }
 p{color: aqua;}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: navy;
+    }
+    #nav{
+        display: none;
+    }
+    #foot,article,section{
+        flex-direction: column;
+    }
+
+  }
+
+  }
+@media only screen and (min-width: 600px) {
+    #hide{
+        display: none;
+    }
+    
+  #gri{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);gap: 10px;background-color: grey;padding: 10px;border-radius: 10px;
+  }
+  }
+
